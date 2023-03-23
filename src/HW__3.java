@@ -47,13 +47,17 @@ public class HW__3 {
          ложное */
 
         printNum();
-        int c = 99;
+        int c = 60;
         if(c > 0){
             System.out.println(c + " - больше 10 ");
         } if (c < 100){
             System.out.println(c + " - меньше 100 ");
         } if(c/2> 20){
             System.out.println("результат деления на 2 больше 20");
+        } if(5 < c && c<= 40){
+            System.out.println("значение переменной между 5 и 40 включительно");
+        } if(c<5 || c> 40){
+            System.out.println("значение переменной меньше 5 или больше 40");
         }
 
     }
