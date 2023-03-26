@@ -9,6 +9,15 @@ public class HW__5 {
             System.out.println( );
         }
 
+        for(int j =10; j>0; j--) {
+            for(int i =10;i>=j; i--){
+                System.out.print("   ");
+            }
+            for (int i = 0; i < j; i++) {
+                System.out.print(i + " ");
+            }
+            System.out.println(" ");
+        }
 
     }
 }
