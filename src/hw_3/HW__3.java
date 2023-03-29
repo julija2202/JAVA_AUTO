@@ -1,3 +1,5 @@
+package hw_3;
+
 public class HW__3 {
     static int number = 1;
     public static void printNum(){

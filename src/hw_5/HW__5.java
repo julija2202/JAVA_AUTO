@@ -1,3 +1,5 @@
+package hw_5;
+
 import com.sun.jdi.PathSearchingVirtualMachine;
 
 public class HW__5 {

@@ -1,3 +1,5 @@
+package hw_1;
+
 public class HW__1 {
     public static void main(String[] args) {
         int a = 3;

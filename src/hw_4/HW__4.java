@@ -1,3 +1,5 @@
+package hw_4;
+
 import com.sun.jdi.PathSearchingVirtualMachine;
 
 public class HW__4 {
