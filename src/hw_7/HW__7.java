@@ -20,14 +20,20 @@ public class HW__7 {
          у сотрудника у которого был вызван метод и сотрудника который был
           передан как параметр, одинаковое имя.
          */
+        Employee employee = new Employee();
+        String e = employee.isSameName("Dima ");
+        String ee = employee.isSameName("Gim ");
+        System.out.println(e);
+        System.out.println(ee);
 
 
         /*Задача №3
         Необходимо создать класс Salary с единственным методом -
         getSum(hw_7.Employee[] employeeArray), метод должен возвращать сумму
         зарплат всех сотрудников из массива переданного в качестве аргумента
-        вызова метода.
-         */
+        вызова метода. */
 
+        Employee[] employeeArray = new Employee[7];
+        employeeArray.getSum();
     }
 }
