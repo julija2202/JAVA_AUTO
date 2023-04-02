@@ -1,7 +1,5 @@
 package hw_7;
 
-import hw_7.Person;
-
 public class HW__7 {
     public static void main(String[] args) {
         /*Задача №1
@@ -32,8 +30,8 @@ public class HW__7 {
         getSum(hw_7.Employee[] employeeArray), метод должен возвращать сумму
         зарплат всех сотрудников из массива переданного в качестве аргумента
         вызова метода. */
-
-        Employee[] employeeArray = new Employee[7];
-        employeeArray.getSum();
+        int employeeArray[] = {employee.salary, employee.salary2};
+        Salary salary = new Salary();
+        //salary.getSum(employeeArray[]);
     }
 }
