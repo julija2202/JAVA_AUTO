@@ -8,9 +8,9 @@ public class HW_8 {
        за количество дней которые были переданы в качестве аргумента.
      */
     public static void main(String[] args) {
-    Employee sal = new Employee();
-        System.out.println(sal.getSalary(5));
-    }
+        Employee dima = new Employee("dima ", 29, "man", 50);
+        System.out.println(dima.getName() + dima.getSalary(30));
+
 
 
     /*Задача №2
@@ -20,5 +20,7 @@ public class HW_8 {
       метод возвращает зарплату за количество дней которые были переданы
        в качестве аргумента.
     К рассчитанной ЗП должно прибавляться по 1% за каждого подчиненного.*/
-
+        Manager juli = new Manager("juli ", 36, "woman", 30, 60);
+        System.out.println(juli.getName() + juli.getSalary(17));
+    }
 }
