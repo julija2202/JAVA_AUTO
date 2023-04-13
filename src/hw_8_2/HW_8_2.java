@@ -25,8 +25,11 @@ public class HW_8_2 {
          (<количество подчиненных> / 100 * 9). Если количество подчиненных 0,
          то результат как у обычного рабочего.
          */
-        Manager manager = new Manager("Juli ",30, 40);
+        Manager manager = new Manager("Juli ",30, 10);
         System.out.println(manager.getSalaryManager());
+
+        Director director = new Director("Dmitrij", 40, 50);
+        System.out.println(director.getSalaryDirector());
 
         /*        Задача №3
         Необходимо создать класс со следующими методами:
