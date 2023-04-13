@@ -44,6 +44,10 @@ public class HW_8_2 {
         в массиве менеджеров
         поиск наименьшей надбавки (разнице между базовой ставкой и зарплатой)
         в массиве менеджеров*/
-
+       FindPerson juli = new FindPerson("Juli", 34, 36);
+        FindPerson dima= new FindPerson("Dima", 34, 36);
+        int j = juli.getByName( "Juli", new Employee[] {juli, dima});
+        int d = juli.getByName( "Dima", new Employee[] {juli, dima});
+        System.out.println(d);
     }
 }
